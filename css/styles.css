@@ -4,17 +4,22 @@
 	border: 0;
 	margin: auto;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body {
 	background: url('https://www.solidbackgrounds.com/download/2560x1440-blue-abstract-noise-free-website-background-image.jpg');
 	background-size: cover;
 	background-position: center;
 	position: center;
-} 
-.min-height {
-	min-height: 100%;
 }
 h1 {
-	font-family: 'gotham', sans-serif;
+	font-family: 'gotham';
 	text-align: center;
 	font-size: 80px;
 	font-stretch: 3px;
@@ -22,12 +27,44 @@ h1 {
 	color: darkred;
 	opacity: 1;
 	text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+       3px 3px 0 #ffff,
+     -1px -1px 0 #ffff,  
+      1px -1px 0 #ffff,
+      -1px 1px 0 #ffff,
+       1px 1px 0 #ffff;
 }
+.champions {
+	color: whitesmoke;
+	text-align: center;
+	padding: 20px;
+	background-color: black;
+}
+	
 #f1-logo {
-	padding: 30px 0px 10px 0px;
+	padding: 30px;
+}
+#header {
+	padding: 30px;
+	background-color: black;
+}
+#drivers {
+	padding: 50px 0px 0px;
+}
+.driverdescription {
+	background-color: black;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 40px;
+	color: darkred;
+}
+#footer {
+	padding: 20px;
+}
+.footertext {
+	text-align: right;
+	color: white;
+}
+#f1logotext {
+	color: black;
+	text-align: center;
 }
