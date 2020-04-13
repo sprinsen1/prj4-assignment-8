@@ -65,6 +65,13 @@ h1 {
 	color: white;
 }
 #f1logotext {
-	color: black;
+	color: whitesmoke;
 	text-align: center;
+}
+.character {
+	opacity: 0.7;
+}
+
+.character:hover {
+	opacity: 1;
 }
