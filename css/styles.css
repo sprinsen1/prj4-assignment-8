@@ -11,6 +11,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+	font-family: 'gotham';
 }
 body {
 	background: url('https://www.solidbackgrounds.com/download/2560x1440-blue-abstract-noise-free-website-background-image.jpg');
@@ -19,7 +20,6 @@ body {
 	position: center;
 }
 h1 {
-	font-family: 'gotham';
 	text-align: center;
 	font-size: 80px;
 	font-stretch: 3px;
@@ -67,6 +67,7 @@ h1 {
 #f1logotext {
 	color: whitesmoke;
 	text-align: center;
+	font-size: 25px;
 }
 .character {
 	opacity: 0.7;
@@ -74,4 +75,16 @@ h1 {
 
 .character:hover {
 	opacity: 1;
+}
+.youtube {
+	font-size: 20px;
+	color: whitesmoke;
+	border: 0;
+	padding: 0 20px 0 20px;
+	text-align: center;
+}
+#ytlogotext {
+	color: whitesmoke;
+	text-align: center;
+	font-size: 25px;
 }
