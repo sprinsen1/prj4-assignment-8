@@ -88,3 +88,12 @@ h1 {
 	text-align: center;
 	font-size: 25px;
 }
+#columntext {
+	font-family: 'gotham';
+	color: darkred;
+	font-size: 40px;
+	background-color: black;
+}
+#maxpic {
+	padding: 10px
+}
