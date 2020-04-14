@@ -95,5 +95,16 @@ h1 {
 	background-color: black;
 }
 #maxpic {
-	padding: 10px
+	padding: 45px 0px 
+	
+}
+.leftarrow {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+.back {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
 }
