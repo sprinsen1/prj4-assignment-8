@@ -95,6 +95,7 @@ h1 {
 	color: darkred;
 	font-size: 40px;
 	background-color: black;
+	text-align: center;
 }
 #maxpic {
 	padding: 45px 0px 
@@ -109,4 +110,16 @@ h1 {
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
+}
+.button {
+	display: inline-block;
+	text-align: center;
+}
+.button2
+{ display: inline-block;
+	text-align: center;
+}
+.button3
+{ display: inline-block;
+	text-align: center;
 }
